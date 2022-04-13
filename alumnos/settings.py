@@ -37,6 +37,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'alumnos_coder'
 ]
 
 MIDDLEWARE = [
@@ -54,7 +55,7 @@ ROOT_URLCONF = 'alumnos.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [],
+        'DIRS': ['C:\\Users\\Leandro Carrozzino\\OneDrive\\Escritorio\\Proyecto alumnos\\alumnos\\alumnos_coder\\templates'],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
